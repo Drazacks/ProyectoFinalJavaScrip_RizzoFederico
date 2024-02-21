@@ -57,11 +57,11 @@ function cargarProductos(productos) {
   divProductos.innerHTML = "";
   for (const producto of productos) {
     divProductos.innerHTML += `
-        <div class="producto colorTarjeta">
+        <div class="producto colorTarjeta ">
             <h3>${producto.nombre}</h3>
             <p class="precio">$${producto.precio}</p>
             <div class="imagen">
-              <img src="img/${producto.imagen}" />
+              <img src="img/${producto.imagen}" alt="Card image cap" width="200" height="200"/>
             </div>
             <a href="#" class="btn btnAgregar" data-id="${producto.id}">Agregar al carrito</a>
         </div>
