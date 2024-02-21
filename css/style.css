@@ -97,13 +97,13 @@ section h4 {
 
 .btn {
   color: white;
-  background-color: blue;
+  background-color: rgb(230, 127, 104);
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
-  border: 1px solid blue;
+  border: 1px solid rgb(230, 127, 104);
   margin: 10px auto;
   display: block;
   text-align: center;
